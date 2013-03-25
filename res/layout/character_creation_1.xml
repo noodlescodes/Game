@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0099FF"
+    android:orientation="vertical" >
+    <!-- 0099FF -->
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:id="@+id/reference_character_creation_1"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"/>
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon"
+        android:id="@+id/icon_character_creation_1"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:padding="10dp"
+        android:contentDescription="@string/icon_description"
+        android:layout_centerHorizontal="true" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Username_character_creation_1"
+        android:orientation="horizontal"
+        android:layout_below="@id/icon_character_creation_1" >
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Username:"
+	        android:id="@+id/username_character_creation_1"
+	        android:layout_weight="2"
+	        android:layout_marginLeft="15dp" />
+	    
+	    <EditText 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/username_character_creation_1_field"
+	        android:hint="Username"
+	        android:layout_weight="1"
+	        android:layout_marginRight="15dp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Email_character_creation_1"
+        android:orientation="horizontal"
+        android:layout_below="@id/Username_character_creation_1" >
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Email:"
+	        android:id="@+id/email_character_creation_1"
+	        android:layout_weight="2"
+	        android:layout_marginLeft="15dp" />
+	    
+	    <EditText 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/email_character_creation_1_field"
+	        android:hint="Email"
+	        android:layout_weight="1"
+	        android:layout_marginRight="15dp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Password_character_creation_1"
+        android:orientation="horizontal"
+        android:layout_below="@id/Email_character_creation_1" >
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Password:"
+	        android:id="@+id/password_character_creation_1"
+	        android:layout_weight="2"
+	        android:layout_marginLeft="15dp" />
+	    
+	    <EditText 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/password_character_creation_1_field"
+	        android:hint="Password"
+	        android:layout_weight="1"
+	        android:layout_marginRight="15dp"
+	        android:password="true" />
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/Character_creation_1_next_button"
+        android:layout_below="@id/Password_character_creation_1" >
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1" />
+	    <Button 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Next"
+	        android:id="@+id/character_creation_1_next_button"
+	        android:layout_marginTop="15dp"
+	        android:layout_weight="1" />
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1" />
+    </LinearLayout>
+    
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/Character_creation_1_next_button"
+	    android:id="@+id/error_character_creation_1"
+	    android:padding="15dp"
+	    android:textColor="#FF0000"
+	    android:textStyle="bold"
+	    android:textSize="12pt"
+	    android:text="Sorry, that username has already been taken. Please pick another!" />
+        
+</RelativeLayout>

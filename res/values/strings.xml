@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Game</string>
+    
+    <string name="label1">Name:</string>
+    <string name="label2">ID:</string>
+    <string name="label3">X pos:</string>
+    <string name="label4">Y pos:</string>
+    <string name="label5">Time:</string>
+</resources>

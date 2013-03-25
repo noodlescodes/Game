@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The top two arrays need to be in the same order, they rely on each other in the code. Same order meaning the item they describe needs to be in the same order-->
+<resources>
+    <string-array name="playerSelf_defaults">
+        <item>1</item> <!-- level -->
+		<item>0</item> <!-- experience -->
+        <item>40</item> <!-- max health -->
+		<item>40</item> <!-- max mana -->
+		<item>100</item> <!-- max fatigue -->
+        <item>5</item> <!-- strength -->
+		<item>5</item> <!-- physical defense -->
+		<item>5</item> <!-- magical defense/willpower -->
+		<item>0.1</item> <!-- critical hit chance -->
+		<item>1</item> <!-- speed (physical movement) -->
+		<item>1</item> <!-- agility (ability to run away) -->
+		<item>5</item> <!-- charm/bartering  -->
+		<item>0.05</item> <!-- luck -->
+    </string-array>
+    
+    <string-array name="playerSelf_attributes_name">
+        <item>Level</item> <!-- 0 -->
+        <item>Experience</item> <!-- 1 -->
+        <item>Max health</item> <!-- 2 -->
+        <item>Max mana</item> <!-- 3 -->
+        <item>Max fatigue</item> <!-- 4 -->
+        <item>Strength</item> <!-- 5 -->
+        <item>Physical defense</item> <!-- 6 --> 
+        <item>Magical defense</item> <!-- 7 -->
+        <item>Critical hit chance</item> <!-- 8 -->
+        <item>Speed</item> <!-- 9 -->
+        <item>Agility</item> <!-- 10 -->
+        <item>Charisma</item> <!-- 11 -->
+        <item>Luck</item> <!-- 12 -->
+    </string-array>
+    
+    <string name="number_of_playerSelf_attributes">13</string> <!-- Total number of attributes -->
+</resources>

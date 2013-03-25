@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The top two arrays need to be in the same order, they rely on each other in the code. Same order meaning the item they describe needs to be in the same order-->
+<resources>
+    <string name="total_tools">3</string>
+    <string name="total_food">6</string>
+    <string name="total_raw">1</string>
+    <string name="total_equipable">4</string>
+    <string name="max_inventory_size">32</string>
+    
+    <string-array name="item_list">
+        <!-- Tools -->
+        
+        <item>Wooden axe</item>
+        <item>Stone axe</item>
+        <item>Glass axe</item>
+        
+        <!-- Foods -->
+        
+        <item>Red apple</item>
+        <item>Green apple</item>
+        <item>Raw steak</item>
+        <item>Cooked steak</item>
+        <item>Raw chicken</item>
+        <item>Cooked chicken</item>
+        
+        <!-- Raw Materials -->
+        
+        <item>Coal</item>
+        
+        <!-- Equipable -->
+        
+        <item>Wooden sword</item>
+        <item>Stone sword</item>
+        <item>Glass sword</item>
+        <item>Leather armor</item>
+        
+    </string-array>
+    
+    <array name="item_details">
+        
+        <!-- Tools -->
+        
+        <item>@array/wooden_axe</item>
+        <item>@array/stone_axe</item>
+        <item>@array/glass_axe</item>
+        
+        <!-- Foods -->
+        
+        <item>@array/red_apple</item>
+        <item>@array/green_apple</item>
+        <item>@array/raw_steak</item>
+        <item>@array/cooked_steak</item>
+        <item>@array/raw_chicken</item>
+        <item>@array/cooked_chicken</item>
+        
+        <!-- Raw materials -->
+        <item>@array/coal</item>
+        
+        <!-- Equipable -->
+        
+        <item>@array/wooden_sword</item>
+        <item>@array/stone_sword</item>
+        <item>@array/glass_sword</item>
+        <item>@array/leather_armor</item>
+    </array>
+    
+    <!-- ============================Change data below this line ========-->
+    
+    <!-- ============================ Tools ============================= -->
+    
+    <string-array name="wooden_axe">
+        <item>Wooden axe</item> <!-- name -->
+        <item>0</item> <!-- type -->
+        <item>10</item> <!-- max uses -->
+        <item>1</item> <!-- attack strength -->
+        <item>3</item> <!-- time to cut trees -->
+        <item>5</item> <!-- RRP -->
+    </string-array>
+    
+    <string-array name="stone_axe">
+        <item>Stone axe</item> <!-- name -->
+        <item>0</item> <!-- type -->
+        <item>10</item> <!-- max uses -->
+        <item>1</item> <!-- attack strength -->
+        <item>3</item> <!-- time to cut trees -->
+        <item>5</item> <!-- RRP -->
+    </string-array>
+    
+    <string-array name="glass_axe">
+        <item>Glass axe</item> <!-- name -->
+        <item>0</item> <!-- type -->
+        <item>10</item> <!-- max uses -->
+        <item>1</item> <!-- attack strength -->
+        <item>3</item> <!-- time to cut trees -->
+        <item>5</item> <!-- RRP -->
+    </string-array>
+    
+    <!-- ========================== Food ============================== -->
+    
+    <string-array name="red_apple">
+        <item>Red apple</item> <!-- name -->
+        <item>1</item> <!-- type -->
+        <item>1</item> <!-- max uses -->
+        <item>1</item> <!-- attack strength -->
+        <item>3</item> <!-- time to cut trees -->
+        <item>5</item> <!-- RRP -->
+    </string-array>
+    
+    <string-array name="green_apple">
+        <item>Green apple</item> <!-- name -->
+        <item>1</item> <!-- type -->
+        <item>1</item> <!-- max uses -->
+        <item>1</item> <!-- attack strength -->
+        <item>3</item> <!-- time to cut trees -->
+        <item>5</item> <!-- RRP -->
+    </string-array>
+    
+    <string-array name="raw_steak">
+        <item>Raw steak</item> <!-- name -->
+        <item>1</item> <!-- type -->
+        <item>1</item> <!-- max uses -->
+        <item>1</item> <!-- attack strength -->
+        <item>3</item> <!-- time to cut trees -->
+        <item>5</item> <!-- RRP -->
+    </string-array>
+    
+    <string-array name="cooked_steak">
+        <item>Cooked steak</item> <!-- name -->
+        <item>1</item> <!-- type -->
+        <item>1</item> <!-- max uses -->
+        <item>1</item> <!-- attack strength -->
+        <item>3</item> <!-- time to cut trees -->
+        <item>5</item> <!-- RRP -->
+    </string-array>
+    
+    <string-array name="raw_chicken">
+        <item>Raw chicken</item> <!-- name -->
+        <item>1</item> <!-- type -->
+        <item>1</item> <!-- max uses -->
+        <item>1</item> <!-- attack strength -->
+        <item>3</item> <!-- time to cut trees -->
+        <item>5</item> <!-- RRP -->
+    </string-array>
+    
+    <string-array name="cooked_chicken">
+        <item>Cooked chicken</item> <!-- name -->
+        <item>1</item> <!-- type -->
+        <item>1</item> <!-- max uses -->
+        <item>1</item> <!-- attack strength -->
+        <item>3</item> <!-- time to cut trees -->
+        <item>5</item> <!-- RRP -->
+    </string-array>
+    
+    <!-- ========================== Raw materials ============================== -->
+    
+    <string-array name="coal">
+        <item>Coal</item> <!-- name -->
+        <item>2</item> <!-- type -->
+        <item>1</item> <!-- max uses -->
+        <item>0</item> <!-- attack strength -->
+        <item>0</item> <!-- time to cut trees -->
+        <item>5</item> <!-- RRP -->
+    </string-array>
+    
+    <!-- ========================== Equipable ============================== -->
+    
+    <string-array name="wooden_sword">
+        <item>Wooden sword</item> <!-- name -->
+        <item>3</item> <!-- type -->
+        <item>10</item> <!-- max uses -->
+        <item>1</item> <!-- attack strength -->
+        <item>3</item> <!-- time to cut trees -->
+        <item>5</item> <!-- RRP -->
+    </string-array>
+    
+    <string-array name="stone_sword">
+        <item>Stone sword</item> <!-- name -->
+        <item>3</item> <!-- type -->
+        <item>10</item> <!-- max uses -->
+        <item>1</item> <!-- attack strength -->
+        <item>3</item> <!-- time to cut trees -->
+        <item>5</item> <!-- RRP -->
+    </string-array>
+    
+    <string-array name="glass_sword">
+        <item>Glass sword</item> <!-- name -->
+        <item>3</item> <!-- type -->
+        <item>15</item> <!-- max uses -->
+        <item>1</item> <!-- attack strength -->
+        <item>3</item> <!-- time to cut trees -->
+        <item>5</item> <!-- RRP -->
+    </string-array>
+    
+    <string-array name="leather_armor">
+        <item>Glass sword</item> <!-- name -->
+        <item>3</item> <!-- type -->
+        <item>15</item> <!-- max uses -->
+        <item>1</item> <!-- attack strength -->
+        <item>3</item> <!-- time to cut trees -->
+        <item>5</item> <!-- RRP -->
+    </string-array>
+</resources>

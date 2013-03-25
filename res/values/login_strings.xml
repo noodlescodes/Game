@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Login</string>
+    <string name="username">Username: </string>
+    <string name="password">Password: </string>
+    <string name="forgot_pword">Forgot password</string>
+    <string name="new_account">New account</string>
+    
+    <string name="icon_description">The game icon</string>
+    
+    <string name="login_error">Sorry your details could not be verified. Please try again.</string>
+    <string name="account_nonexist">You currently do not have an account with us. Please create one!</string>
+</resources>
